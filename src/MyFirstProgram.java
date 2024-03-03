@@ -1,16 +1,18 @@
+import java.util.Scanner;
 
-public class MyFirstProgram { // class class and methods name are called "identifiers"
+public class MyFirstProgram {
 
-	// Classes consist of members such as : methods and property
-	// Access Modifiers : public and private are access modifiers, they give permission to access that class or method
-	
-	public static void main(String[] args) { // Methods: do something printing to console
-		System.out.println("Hello There!"); // statement
+	public static void main(String[] args) {
+		System.out.println("What is your name?");
+		
+		//Syntax to create object
+		//type identifier(variable name) = new type();
+		Scanner scanner = new Scanner(System.in);
+		String name = scanner.nextLine() ;
+		
+		System.out.println("hello " + name);
 
 	}
-	
-	public String x = new String("hello");  // Property : Store Values
-	
 }
 
 // comment
