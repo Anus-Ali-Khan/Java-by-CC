@@ -1,4 +1,4 @@
-
+ 
 public class NumericMethods {
 
 	public static void main(String[] args) {
